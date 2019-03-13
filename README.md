@@ -11,6 +11,7 @@ The most basic usage is simply passing the searchTerm as a prop to the card comp
 
 ```javascript
 import React from 'react';
+import ReactDOM from 'react-dom';
 import { MtgCardViewer } from './MtgCardViewer/MtgCardViewer';
 
 class App extends React.Component {
