@@ -3,7 +3,9 @@
 MtgCardViewer mimics the link functionality of channel fireball, mtggoldfish and the mtg wiki for react apps. You can pass a *searchTerm* as prop to the component and it will look for this card on [Scryfall](https://scryfall.com). Upon hovering on the card name (or clicking if on *mobileMode*) the image will appear right below the card name. 
 
 ## Installation
-For now the Component has to be downloaded manually. NPM package underway.
+```console
+npm i mtg-card-viewer -s
+```
 
 ## Usage and Options
 
@@ -12,7 +14,7 @@ The most basic usage is simply passing the searchTerm as a prop to the card comp
 ```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { MtgCardViewer } from './MtgCardViewer/MtgCardViewer';
+import { MtgCardViewer } from 'mtg-card-viewer';
 
 class App extends React.Component {
   render() {
