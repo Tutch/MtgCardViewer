@@ -1,9 +1,15 @@
 {
   "name": "mtg-card-viewer",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "description": "React Component to allow for quick lookup of Magic: the Gathering cards for React Applications.",
   "main": "./lib/MtgCardViewer.js",
   "license": "MIT",
+  "keywords": [
+    "magic the gathering",
+    "mtg",
+    "react",
+    "component"
+  ],
   "peerDependencies": {
     "prop-types": "^15.7.2",
     "react": "^16.8.4",
